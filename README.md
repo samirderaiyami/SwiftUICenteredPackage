@@ -2,7 +2,7 @@
 
 ## Installations
 
-To install this package, import `url here` in SPM.
+To install this package, import `https://github.com/samirderaiyami/SwiftUICenteredPackage.git` in SPM.
 
 ## USES EXAMPLES
 
