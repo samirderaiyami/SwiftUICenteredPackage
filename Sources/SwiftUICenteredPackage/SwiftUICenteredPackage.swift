@@ -1,6 +1,11 @@
-public struct SwiftUICenteredPackage {
-    public private(set) var text = "Hello, World!"
+import SwiftUI
 
-    public init() {
+public extension View {
+    func centerHorizontally -> some View {
+        HStack {
+            Spacer()
+            self
+            Spacer()
+        }
     }
 }
